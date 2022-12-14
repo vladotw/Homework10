@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
-//        task3();
+        task3();
     }
 
     public static void task1() {
@@ -33,6 +33,13 @@ public class Main {
         System.out.println();
     }
 
+    public static void task3() {
 
+        String fullName = "Иванов Семён Семёнович";
+
+        String fullNameCorrected = fullName.replace('ё', 'е');
+
+        System.out.println("Данные ФИО сотрудника — " + fullNameCorrected);
+    }
 
 }
